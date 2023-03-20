@@ -1,0 +1,80 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin-top: 10px;
+  }
+  
+  .dropdown {
+    /* margin-left: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue; */
+
+    background-color: black; /* Green background */
+    color: white; /* White text */
+    padding: 20px; /* Some padding */
+    font-size: 18px; /* Increase font size */
+    border: none; /* Remove borders */
+    cursor: pointer; /* Change cursor on hover */
+    margin: 20px;
+  }
+
+  .dropdown-label {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .generate-button {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 25px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 20px;
+  }
+
+  .toggle-pollutant-model-button{
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #000;
+    padding: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 20px;
+  }
+
+  .dropdown-button {
+    background-color: red; /* Green background */
+    color: white; /* White text */
+    padding: 12px; /* Some padding */
+    font-size: 16px; /* Increase font size */
+    border: none; /* Remove borders */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  .generate-button:hover {
+    color: black;
+    background-color: white;
+  }
+
+  .toggle-pollutant-model-button:hover {
+    color: black;
+    background-color: white;
+  }

@@ -1,0 +1,216 @@
+.App{
+  width:100%;
+  max-width:100%;
+  height:100%;
+  align-items: center;
+  background-color: black;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* make thumb semi-transparent */
+}
+
+.DescriptionContainer{
+  background-color: black;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.DescriptionContainer2{
+  background-color: black;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.AboutContainer{
+  background-color: black;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.CanvasContainer{
+  flex: 1;
+  flex-direction: row;
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+  background-color: black;
+}
+
+.Heading{
+  color: #fff;
+  font-size: 70px;
+  margin-top: 1px;
+}
+
+.Description{
+  padding-top: 20px;
+  font-Size: 16;
+  width: 60%;
+  color: white;
+}
+
+.Canvas{
+  background: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.CanvasBox{
+  background: black;
+  height: 40vh;
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background-color: purple;
+}
+
+.services {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.help-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #282c34;
+  color: white;
+}
+
+.help-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.demo-container,
+.instructions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin-bottom: 2rem;
+}
+
+.demo-container h2,
+.instructions-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.model-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 30vh;
+  background-color: black;
+  margin-bottom: 1rem;
+}
+
+.instructions-container ol {
+  list-style-position: inside;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: left;
+}
