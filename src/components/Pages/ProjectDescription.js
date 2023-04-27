@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../App.css';
-
 import Particle from '../Particle';
 import Footer from '../Footer';
 
 export default function Products() {
+  
   return (
     <div>
     <>
@@ -23,9 +23,6 @@ export default function Products() {
         <Footer />
       </div>
     </>
-    
-    </div>
-    
+    </div>  
   );
-  
 }

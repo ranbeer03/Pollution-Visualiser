@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import "./PollutantGenerator.css";
-import { Button } from './Button';
-
-const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
-
-const SIZES = ['btn--medium', 'btn--large'];
 
 const places = [
   { name: "TQ3280SE", value: "TQ3280SE" },
+  { name: "TQ3180NE", value: "TQ3180NE" },
+  { name: "TQ3281SW", value: "TQ3281SW" },
   { name: "TQ3381SW", value: "TQ3381SW" },
 ];
 
@@ -19,7 +16,6 @@ const pollutants = [
 ];
 
 const generateData = (place, pollutant) => {
-  // Generate data based on the user's selection
   console.log(`Generating data for ${pollutant} in ${place}`);
 };
 
@@ -53,50 +49,6 @@ const DropdownMenu = ({ label, options, onSelect }) => {
   );
 };
 
-// const PollutantGenerator = ({ onButtonClick }) => {
-//   const [selectedPlace, setSelectedPlace] = useState(places[0]);
-//   const [selectedPollutant, setSelectedPollutant] = useState(pollutants[0]);
-
-//   const handleGenerateData = () => {
-//     generateData(selectedPlace.name, selectedPollutant.name);
-//     onButtonClick(selectedPlace.value, selectedPollutant.value); // Pass the selected place and pollutant values to the parent component
-//   };
-
-//   return (
-//     <div className="main-container">
-//       <div className="container">
-//         <DropdownMenu
-//           className='dropdown-button'
-//           label="Place:"
-//           options={places}
-//           onSelect={setSelectedPlace}
-//         />
-//         <DropdownMenu
-//           label="Pollutant:"
-//           options={pollutants}
-//           onSelect={setSelectedPollutant}
-//         />
-//       </div>
-//       <div className="container">
-//         <button 
-//           className='generate-button' 
-//           buttonStyle='btn--outline'
-//           buttonSize='btn--large'
-//           onClick={handleGenerateData}
-//         >
-//           Generate
-//         </button>
-//       </div>
-//     </div>
-//   );
-// };
-
-// // ...
-
-
-
-// export default PollutantGenerator;
-
 const PollutantGenerator = ({ onButtonClick, onTogglePollutantModel }) => {
   const [selectedPlace, setSelectedPlace] = useState(places[0]);
   const [selectedPollutant, setSelectedPollutant] = useState(pollutants[0]);
@@ -105,8 +57,6 @@ const PollutantGenerator = ({ onButtonClick, onTogglePollutantModel }) => {
     generateData(selectedPlace.name, selectedPollutant.name);
     onButtonClick(selectedPlace.value, selectedPollutant.value); // Pass the selected place and pollutant values to the parent component
   };
-
-
 
   return (
     <div className="main-container">

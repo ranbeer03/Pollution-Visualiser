@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 
 function CardItem(props) {
   const [isExpanded, setIsExpanded] = useState(false);
-
   const handleCardClick = (event) => {
     setIsExpanded(!isExpanded);
   };

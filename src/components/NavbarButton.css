@@ -1,0 +1,29 @@
+/* NavbarButton.css */
+.navbar-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .btn {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 120px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 20px;
+  }
+  
+  .btn.selected {
+    background-color: white;
+    color: #282c34;
+  }
+  
+  .btn:hover:not(.selected) {
+    background-color: #333;
+  }
+  

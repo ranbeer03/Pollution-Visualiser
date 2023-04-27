@@ -1,5 +1,4 @@
 import React,  {Suspense} from 'react';
-import * as THREE from "three";
 import { OrbitControls } from "@react-three/drei"
 import '../../App.css';
 import Box from "../../components/Box";
@@ -52,6 +51,7 @@ const Help = () => {
         <PollutantGenerator />
       </div>
     </div>
+    <Footer />
   </>
     
   );

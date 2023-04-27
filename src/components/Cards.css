@@ -1,5 +1,5 @@
 .cards {
-    height: 80vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,6 +11,7 @@
   
   h1 {
     color: #fff;
+    width: 70%;
     font-size: 40px;
     text-align: center;
   }
@@ -44,19 +45,13 @@
     flex: 1;
     min-width: 300px;
     margin: 10px;
-
-    /* display: flex;
-    flex: 1;
-    margin: 0 1rem; */
     border-radius: 10px;
   }
   
   .cards__item__link {
-    
     display: flex;
     flex-flow: column;
     width: 100%;
-    /* box-shadow: 0 0px 30px rgb(225, 228, 234); */
     border-color: #fff;
     border: 1px solid var(--primary);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));

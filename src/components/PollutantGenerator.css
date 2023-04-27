@@ -11,7 +11,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 10vh;
     margin-top: 10px;
   }
   
@@ -24,7 +24,6 @@
 
     background-color: black; /* Green background */
     color: white; /* White text */
-    padding: 20px; /* Some padding */
     font-size: 18px; /* Increase font size */
     border: none; /* Remove borders */
     cursor: pointer; /* Change cursor on hover */
@@ -61,11 +60,10 @@
   }
 
   .dropdown-button {
-    background-color: red; /* Green background */
     color: white; /* White text */
     padding: 12px; /* Some padding */
     font-size: 16px; /* Increase font size */
-    border: none; /* Remove borders */
+    border: 1px; /* Remove borders */
     cursor: pointer; /* Change cursor on hover */
   }
   

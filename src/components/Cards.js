@@ -23,27 +23,21 @@ function Cards() {
       </p>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-          {/* <ul className='cards__items'>
-            <CardItem
-              src='images/img-9.jpg'
-              text='Shapefile Data: Mapping Pollution Patterns Geospatially'
-              label='Adventure'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-2.jpg'
-              text='Shapefile Data: Mapping Pollution Patterns Geospatially'
-              label='Luxury'
-              path='/services'
-            />
-          </ul> */}
           <ul className='cards__items'>
             <CardItem
               src='./CSVData.jpg'
               text='CSV Data Visualization: Unlocking Insights from Raw Data'
               label='.csv'
               path='/services'
-              expandedText="Information yet to be added."
+              expandedText="Discover a powerful combination of geospatial data analysis and 3D visualization to 
+              visualize CSV data by using Python in Blender. This approach involves reading the CSV data and creating 
+              a bar for each data point on the 3D model that corresponds to its grid reference ID and coordinates.
+              To achieve this, Blender GIS plugin is needed along with a base map. Next, Python is used to read the CSV
+              data and generate bars representing each data point. Further customization, such as adding colors, textures 
+              helped enhance the visualization. Visual appeal of the 3D representation is boosted by applying color 
+              gradients and adjusting transparency, resulting in an accurate and engaging visualization of the CSV data. 
+              This method provides an immersive experience and a realistic portrayal of air pollution in London, facilitating 
+              in-depth analysis and comparison."
             />
             <CardItem
               src='./ShapefileData.jpg'
@@ -51,14 +45,13 @@ function Cards() {
               label='.shp'
               path='/products'
               expandedText="Geospatial data analysis offers various formats and techniques, with shapefile data 
-              being a popular choice for storing geographic features. 3D visualization tools, like Blender GIS, 
-              enable effective interaction with shapefile data, providing immersive experiences and realistic 
-              visualizations. Importing and customizing shapefile data in Blender involves installing the Blender 
+              being a popular choice for storing geographic features. 3D visualization tool Blender GIS, 
+              enabled effective interaction with shapefile data, providing immersive experiences and realistic 
+              visualizations. Importing and customizing shapefile data in Blender involved installing the Blender 
               GIS plugin, importing a base map, adjusting navigation settings, and importing the data. 
-              Customization options include adding colors, textures, or selecting primitive shapes like polygons, 
-              Venn diagrams, and circles. Accurate and engaging visualizations can be achieved through further 
-              customization, such as applying color gradients and adjusting transparency. This creates a concise 
-              and visually appealing 3D representation of shapefile data, suitable for analysis and comparison."
+              Accurate and engaging visualizations were achieved through further  customization, such as applying color 
+              gradients and adjusting transparency. This created a concise and visually appealing 3D representation of shapefile 
+              data, suitable for analysis and comparison."
             />
             <CardItem
               src='./ImageData.jpg'
