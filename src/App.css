@@ -1,7 +1,7 @@
-.App{
-  width:100%;
-  max-width:100%;
-  height:100%;
+.App {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
   align-items: center;
   background-color: black;
   overflow: hidden;
@@ -15,7 +15,7 @@
   background-color: rgba(0, 0, 0, 0.2); /* make thumb semi-transparent */
 }
 
-.DescriptionContainer{
+.DescriptionContainer {
   background-color: black;
   height: 50vh;
   width: 100%;
@@ -24,11 +24,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.DescriptionContainer2{
+.DescriptionContainer2 {
   background-color: black;
   height: 80vh;
   width: 100%;
@@ -37,11 +36,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.AboutContainer{
+.AboutContainer {
   background-color: black;
   height: 80vh;
   width: 100%;
@@ -50,29 +48,23 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
-
-
-.Heading{
+.Heading {
   color: #fff;
   font-size: 80px;
   margin-top: 1px;
 }
 
-.Description{
+.Description {
   padding-top: 20px;
-  font-Size: 16;
+  font-size: 16px;
   width: 60%;
   color: white;
 }
 
-
-
-.CanvasBox{
+.CanvasBox {
   background: black;
   height: 40vh;
   width: 100%;
@@ -150,70 +142,108 @@
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
-  }
-  to {
+    }
+    to {
     transform: rotate(360deg);
-  }
-}
-
-.help-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  background-color: #282c34;
-  color: white;
-}
-
-.help-page h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.demo-container,
-.instructions-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 60%;
-  margin-bottom: 2rem;
-}
-
-.demo-container h2,
-.instructions-container h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.model-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 60%;
-  height: 30vh;
-  background-color: black;
-  margin-bottom: 1rem;
-}
-
-.instructions-container ol {
-  list-style-position: inside;
-  font-size: 1.2rem;
-  line-height: 1.5;
-  text-align: left;
-}
-
-.fullscreen-button {
-  background-color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.fullscreen-button:hover {
-  background-color: #cccccc;
-}
+    }
+    }
+    
+    .help-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #282c34;
+    color: white;
+    }
+    
+    .help-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    }
+    
+    .demo-container,
+    .instructions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-bottom: 2rem;
+    }
+    
+    .demo-container h2,
+    .instructions-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+    
+    .model-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 30vh;
+    background-color: black;
+    margin-bottom: 1rem;
+    }
+    
+    .instructions-container ol {
+    list-style-position: inside;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
+    }
+    
+    .fullscreen-button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    }
+    
+    .fullscreen-button:hover {
+    background-color: #cccccc;
+    }
+    
+    /* Mobile Styles */
+    @media (max-width: 768px) {
+    .Heading {
+    font-size: 40px;
+    }
+    
+    .Description {
+    font-size: 14px;
+    width: 80%;
+    }
+    
+    .home,
+    .services,
+    .products,
+    .sign-up {
+    font-size: 2rem;
+    }
+    
+    .services,
+    .products,
+    .sign-up {
+    font-size: 50px;
+    }
+    
+    .help-page h1 {
+    font-size: 2rem;
+    }
+    
+    .demo-container h2,
+    .instructions-container h2 {
+    font-size: 1.5rem;
+    }
+    
+    .instructions-container ol {
+    font-size: 1rem;
+    }
+    }
