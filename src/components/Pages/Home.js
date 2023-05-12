@@ -23,7 +23,7 @@ function Home() {
       <div className='App'>
             <div className='DescriptionContainer'>
               <h1 className='Heading'>Welcome</h1>
-              <p1 className='Description'> Welcome to Pollution Visualizer, your interactive platform for exploring air pollution in London through advanced 3D visualization. Choose from CSV, Shapefile (SHE), or PNG datasets to create accurate and immersive models, and gain valuable insights into pollution levels across the city. Start your journey towards understanding air pollution's impact on public health and the environment with Pollution Visualizer today.</p1>  
+              <p1 className='Description'> Welcome to Pollution Visualizer, your interactive platform for exploring air pollution in London through advanced 3D visualization. Choose from CSV, Shapefile (SHP), or PNG datasets to create accurate and immersive models, and gain valuable insights into pollution levels across the city. Start your journey towards understanding air pollution's impact on public health and the environment with Pollution Visualizer today.</p1>  
             </div>
             <NavbarButton onSelectionChange={handleSelectionChange} />
             <div className='MegaContainer'>
