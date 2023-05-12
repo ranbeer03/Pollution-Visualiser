@@ -12,8 +12,10 @@ function Filler() {
   return (
     <div className='hero-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>So what are you waiting for? Start exploring the data today, and see for yourself how air pollution is affecting your city. With Pollution Visualiser, you can be part of the solution to this urgent environmental and public health challenge.</p>
+      <div className='DescriptionContainer'>
+        <h1 className='Heading'>ADVENTURE AWAITS</h1>
+        <p className='Description'>So what are you waiting for? Start exploring the data today, and see for yourself how air pollution is affecting your city. With Pollution Visualiser, you can be part of the solution to this urgent environmental and public health challenge.</p>
+      </div>
       <div className='hero-btns'>
         <Button
           className='btns'

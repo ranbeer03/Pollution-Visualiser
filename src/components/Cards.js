@@ -5,8 +5,9 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Explore Pollution Visualization Techniques using CSV, Shapefile, and Image Data</h1>
-      <p className='description'>
+    
+      <h1 className='Heading'>Explore Pollution Visualization Techniques using CSV, Shapefile, and Image Data</h1>
+      <p className='Description'>
       The subsequent section presents a comprehensive overview of three distinct methodologies employed for 
       visualizing pollution data. Each approach offers unique advantages and challenges, yet only one has been 
       deemed most suitable for this particular project.The first method, CSV Data Visualization, was ultimately 

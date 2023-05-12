@@ -13,16 +13,16 @@
 .navbar-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 80px;
   max-width: 1500px;
+  width: 100%;
+  padding: 0 1rem;
 }
 
 .navbar-logo {
   color: #fff;
-  justify-self: start;
-  margin-left: 10px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -77,10 +77,6 @@
 }
 
 @media screen and (max-width: 960px) {
-  .navbar-container {
-    position: relative;
-  }
-
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -91,10 +87,10 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    background: #242222;
   }
 
   .nav-menu.active {
-    background: #242222;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -114,12 +110,6 @@
     border-radius: 0;
   }
 
-  .navbar-logo {
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
-  }
-
   .menu-icon {
     display: block;
     position: absolute;
@@ -130,12 +120,7 @@
     cursor: pointer;
   }
 
-  .fa-times {
-    color: #fff;
-    font-size: 2rem;
-  }
-
-  .nav-links-mobile{
+  .nav-links-mobile {
     display: block;
     text-align: center;
     margin: 2rem auto;
@@ -148,11 +133,17 @@
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
-    }
-    
-    .nav-links-mobile:hover {
+  }
+
+  .nav-links-mobile:hover {
     background: #fff;
     color: #242424;
     transition: 250ms;
+    }
+    
+    .menu-icon {
+    display: block;
+    font-size: 1.8rem;
+    cursor: pointer;
     }
     }
